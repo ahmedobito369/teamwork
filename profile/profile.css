@@ -1,0 +1,122 @@
+body{
+    background-color:white;
+    width: 100%;
+    margin:0;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: larger;
+    scroll-behavior: smooth;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+
+section{
+    padding: 100px 200px;
+}
+
+/*class*/
+
+/* this is header*/
+.header{
+    height: 50px;
+    width: 100%;
+    background-color:white;
+    position: fixed;
+    z-index: 999;
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    padding: 0 0;
+}
+
+
+.logo,.logo:visited{
+    color: #3498db;
+    text-decoration: none;
+    text-transform:capitalize;
+    font-size: larger;
+    font-weight: bolder;
+}
+ 
+
+.logo:hover{
+    color: #192a56;
+    font-size: larger;
+    transition:ease-in 0.5s;
+}
+
+
+.ul1 a{
+    color: #3498db;
+    padding: 0 20px;
+    text-decoration: none;
+    transition:ease-in 0.5s;
+}
+
+
+.ul1 a:hover{
+    color: #0032b1;
+}
+
+/*this is end of header*/
+
+
+
+
+
+
+.main{
+    width: 100%;
+    min-width:100vh;
+    align-items: center;
+    display:flex;
+    background-image: url(img/background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+}
+
+
+.main .spanM{
+    color: #0652DD;
+    font-size:50px;
+    font-weight: bolder;
+    display: inline-block;
+}
+
+.main h3{
+    font-weight:700;
+    margin: 30px 10px;
+}
+
+.main .main-button{
+    background-color: #0652DD;
+    border-radius: 5px;
+    padding: 10 20px;
+    color: white;
+    text-decoration: none;
+    display: inline-block;
+    transition:ease-in-out 0.3s;
+    margin: 10px 0;
+}
+
+.main .main-button:hover{
+    transform: scale(1.1);
+    background-color: #1c3d91;
+}
+
+
+
+.social-icons a{
+    margin: 30px 10px;
+    color: #fff;
+    transition: ease-in-out 0.5s;
+}
+
+.social-icons a:hover{
+    transform: scale(1.1);
+    color: #EA2027;
+}
+
+
+
